@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 5</title>
+</head>
+<body>
+  
+<script>
+
+  function checkOddOrEven(num) {
+    if(num%2 === 0) {
+      return 'even';
+    } else {
+      return 'odd';
+    }
+  }
+  console.log(checkOddOrEven(67));
+  console.log(checkOddOrEven(0));
+  console.log(checkOddOrEven(-4));
+  console.log(checkOddOrEven(9999));
+  
+  function getLarger(num1, num2) {
+    return num1 > num2 ? num1 : num2;
+  }
+  console.log(getLarger(14,67));
+  console.log(getLarger(14,14));
+  console.log(getLarger(90,67));
+  console.log(getLarger(9999,9999));
+
+
+  function toFahrenheit(celsisusValue) {
+    return 9/5*celsisusValue +32;
+  }
+  console.log(toFahrenheit(5));
+  console.log(toFahrenheit(0));
+  console.log(toFahrenheit(100));
+  console.log(toFahrenheit(32));
+
+</script>
+
+</body>
+</html>
